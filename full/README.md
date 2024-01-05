@@ -41,6 +41,7 @@ cd share/
 pip3 install -r ./commits_analysis/requirements.txt
 pip3 install -r ./events_analysis/requirements.txt
 pip3 install -r ./users_analysis/requirements.txt
+pip3 install -r ./repos_analysis/requirements.txt
 ```
 
 2. **替换程序中的占位符**
