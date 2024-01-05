@@ -59,25 +59,4 @@
 
 ## 运行完整项目
 
-如果您希望运行并探索我们项目的完整代码，可以遵循以下步骤：
-
-1. **准备环境**：
-   确保您的计算机上安装了Docker和Docker Compose。这是运行项目所必需的。
-
-2. **下载项目代码**：
-   克隆或下载我们的项目代码到您的本地机器。
-
-3. **安装依赖**：
-   根据`full/`文件夹中的README指导安装必要的依赖包。
-
-4. **运行Docker Compose**：
-   在包含完整`docker-compose.yml`文件的目录下运行：
-   ```shell
-   docker-compose up
-   ```
-   这将根据配置文件启动所有必需的服务，包括zookeeper, kafka, spark, hadoop, elasticsearch, kibana等。
-
-5. **访问和探索数据**：
-   数据处理完成后，您可以访问Kibana（通常位于`localhost:5601`）来探索和分析数据。
-
-请按照`full/`文件夹中的额外README进行详细操作，以确保正确配置和使用整个系统。
+如果您希望运行我们项目的完整代码，包括数据获取和分析的全过程，请按照`full/README.md`配置运行完整项目。
