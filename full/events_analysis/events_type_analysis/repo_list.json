@@ -1,0 +1,13 @@
+[
+    {"owner":"WeOpenML", "repo_name":"PandaLM"},
+    {"owner":"huggingface", "repo_name":"transformers"},
+    {"owner":"huggingface", "repo_name":"text-generation-inference"},
+    {"owner":"huggingface", "repo_name":"diffusers"},
+    {"owner":"huggingface", "repo_name":"datasets"},
+    {"owner":"huggingface", "repo_name":"peft"},
+    {"owner":"pytorch", "repo_name":"pytorch"},
+    {"owner":"tensorflow", "repo_name":"tensorflow"},
+    {"owner":"microsoft", "repo_name":"lisa"},
+    {"owner":"microsoft", "repo_name":"nav-docker"},
+    {"owner":"microsoft", "repo_name":"Megatron-DeepSpeed"}
+]

@@ -1,0 +1,9 @@
+pyspark
+python-dateutil
+numpy
+pandas
+scikit-learn
+torch
+networkx
+confluent_kafka
+requests
