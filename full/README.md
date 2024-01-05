@@ -269,7 +269,7 @@ nohup python3 list_issues.py repo_list.json 3600 2023-01-01T00:00:00Z >/dev/null
 
 2. **部署大型语言模型**
 
-- 考虑到大模型占用空间较大，我们提交的镜像中不包含模型权重，需从https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1下载权重到本地路径，并使用如下指令部署模型，请修改您需使用的GPU ID、端口以及模型的本地路径。在实验中，我们使用单张NVIDIA RTX 4090 24GB GPU完成推理。
+- 考虑到大模型占用空间较大，我们提交的镜像中不包含模型权重，需从https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1 下载权重到本地路径，并使用如下指令部署模型，请修改您需使用的GPU ID、端口以及模型的本地路径。在实验中，我们使用单张NVIDIA RTX 4090 24GB GPU完成推理。
 
 ```shell
 docker run --rm -d --gpus "device=<your-gpu-id>" --shm-size 32g -p <your-llm-port>:80 -v <path-to-your-model>:/data --name tgi ghcr.io/huggingface/text-generation-inference:1.1.0 --model-id /data --sharded false --max-input-length=3000 --max-total-tokens=4096 --max-best-of=8 --max-stop-sequences=20 --max-batch-prefill-tokens=4096 --trust-remote-code
