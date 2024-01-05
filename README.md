@@ -56,7 +56,6 @@
 4. **访问Kibana**：
    在浏览器中输入`http://localhost:5601`访问Kibana。在这里，您可以直接查看和分析预先加载的数据，验证我们的分析结果，其中端口号在docker-compose.yml定义。
 
-请确保您的系统中已安装Docker，并且对Docker具有一定的使用经验。
 
 ## 运行完整项目
 
